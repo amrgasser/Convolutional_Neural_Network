@@ -24,8 +24,8 @@ protected:
     const int m_output_size;
     
 public:
-    Layer(const int int_size, const int out_size):
-        m_input_size(int_size),
+    Layer(const int in_size, const int out_size):
+        m_input_size(in_size),
         m_output_size(out_size)
     {}
     

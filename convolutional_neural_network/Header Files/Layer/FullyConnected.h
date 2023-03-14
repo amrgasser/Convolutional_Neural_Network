@@ -15,6 +15,7 @@
 #include "Config.h"
 #include "../Layer.h"
 #include "../Utils/Random.h"
+#include "Optimizer.h"
 
 template<typename Activation>
 
@@ -23,6 +24,8 @@ class FullyConnected : public Layer
 private :
     typedef Eigen::Matrix<Scalar, Eigen::Dynamic, Eigen::Dynamic> Matrix;
     typedef Eigen::Matrix<Scalar, Eigen::Dynamic, 1> Vector;
+	typedef Vector::ConstAlignedMapType ConstAlignedMapVec;
+	typedef Vector::AlignedMapType AlignedMapVec;
     
     Matrix m_weight;
     Vector m_bias;

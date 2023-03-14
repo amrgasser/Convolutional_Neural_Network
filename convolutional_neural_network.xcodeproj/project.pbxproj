@@ -36,6 +36,13 @@
 		C58A678729BA7789000B6013 /* Output.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Output.h; sourceTree = "<group>"; };
 		C58A678829BA7793000B6013 /* RNG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNG.h; sourceTree = "<group>"; };
 		C58A678929BA844C000B6013 /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		C5E1CC0329BD4A6D0016ED73 /* MaxAverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxAverage.h; sourceTree = "<group>"; };
+		C5E1CC0429BD56750016ED73 /* Convolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Convolution.h; sourceTree = "<group>"; };
+		C5E1CC0529BD5D450016ED73 /* Identity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Identity.h; sourceTree = "<group>"; };
+		C5E1CC0629BD5E100016ED73 /* ReLU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReLU.h; sourceTree = "<group>"; };
+		C5E1CC0729BD5E1F0016ED73 /* Sigmoid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sigmoid.h; sourceTree = "<group>"; };
+		C5E1CC0829BD5E2E0016ED73 /* Softmax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Softmax.h; sourceTree = "<group>"; };
+		C5E1CC0929BD5E390016ED73 /* TanH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TanH.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				C58A678929BA844C000B6013 /* Random.h */,
+				C5E1CC0329BD4A6D0016ED73 /* MaxAverage.h */,
+				C5E1CC0429BD56750016ED73 /* Convolution.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -121,6 +130,11 @@
 		C58A677F29BA7695000B6013 /* Activation */ = {
 			isa = PBXGroup;
 			children = (
+				C5E1CC0529BD5D450016ED73 /* Identity.h */,
+				C5E1CC0629BD5E100016ED73 /* ReLU.h */,
+				C5E1CC0729BD5E1F0016ED73 /* Sigmoid.h */,
+				C5E1CC0829BD5E2E0016ED73 /* Softmax.h */,
+				C5E1CC0929BD5E390016ED73 /* TanH.h */,
 			);
 			path = Activation;
 			sourceTree = "<group>";
