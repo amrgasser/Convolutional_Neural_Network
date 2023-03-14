@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C58A676F29BA74EC000B6013 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C58A676E29BA74EC000B6013 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C58A676929BA74EC000B6013 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C58A676B29BA74EC000B6013 /* convolutional_neural_network */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = convolutional_neural_network; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58A676E29BA74EC000B6013 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C58A677929BA7622000B6013 /* FullyConnected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullyConnected.h; sourceTree = "<group>"; };
+		C58A677A29BA7644000B6013 /* Convolutional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Convolutional.h; sourceTree = "<group>"; };
+		C58A677B29BA7650000B6013 /* Pooling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pooling.h; sourceTree = "<group>"; };
+		C58A678129BA7727000B6013 /* DNN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNN.h; sourceTree = "<group>"; };
+		C58A678229BA7730000B6013 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		C58A678329BA773E000B6013 /* Layer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Layer.h; sourceTree = "<group>"; };
+		C58A678529BA776D000B6013 /* NeuralNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeuralNet.h; sourceTree = "<group>"; };
+		C58A678629BA777F000B6013 /* Optimizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Optimizer.h; sourceTree = "<group>"; };
+		C58A678729BA7789000B6013 /* Output.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Output.h; sourceTree = "<group>"; };
+		C58A678829BA7793000B6013 /* RNG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNG.h; sourceTree = "<group>"; };
+		C58A678929BA844C000B6013 /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		C5E1CC0329BD4A6D0016ED73 /* MaxAverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxAverage.h; sourceTree = "<group>"; };
+		C5E1CC0429BD56750016ED73 /* Convolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Convolution.h; sourceTree = "<group>"; };
+		C5E1CC0529BD5D450016ED73 /* Identity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Identity.h; sourceTree = "<group>"; };
+		C5E1CC0629BD5E100016ED73 /* ReLU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReLU.h; sourceTree = "<group>"; };
+		C5E1CC0729BD5E1F0016ED73 /* Sigmoid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sigmoid.h; sourceTree = "<group>"; };
+		C5E1CC0829BD5E2E0016ED73 /* Softmax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Softmax.h; sourceTree = "<group>"; };
+		C5E1CC0929BD5E390016ED73 /* TanH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TanH.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C58A676829BA74EC000B6013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C58A676229BA74EC000B6013 = {
+			isa = PBXGroup;
+			children = (
+				C58A676D29BA74EC000B6013 /* convolutional_neural_network */,
+				C58A676C29BA74EC000B6013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C58A676C29BA74EC000B6013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C58A676B29BA74EC000B6013 /* convolutional_neural_network */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C58A676D29BA74EC000B6013 /* convolutional_neural_network */ = {
+			isa = PBXGroup;
+			children = (
+				C58A677729BA75FC000B6013 /* Header Files */,
+				C58A676E29BA74EC000B6013 /* main.cpp */,
+			);
+			path = convolutional_neural_network;
+			sourceTree = "<group>";
+		};
+		C58A677729BA75FC000B6013 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C58A678029BA769E000B6013 /* Output */,
+				C58A677F29BA7695000B6013 /* Activation */,
+				C58A677E29BA766C000B6013 /* Utils */,
+				C58A677C29BA7655000B6013 /* Optimizer */,
+				C58A677829BA7603000B6013 /* Layer */,
+				C58A678129BA7727000B6013 /* DNN.h */,
+				C58A678229BA7730000B6013 /* Config.h */,
+				C58A678329BA773E000B6013 /* Layer.h */,
+				C58A678529BA776D000B6013 /* NeuralNet.h */,
+				C58A678629BA777F000B6013 /* Optimizer.h */,
+				C58A678729BA7789000B6013 /* Output.h */,
+				C58A678829BA7793000B6013 /* RNG.h */,
+			);
+			path = "Header Files";
+			sourceTree = "<group>";
+		};
+		C58A677829BA7603000B6013 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				C58A677929BA7622000B6013 /* FullyConnected.h */,
+				C58A677A29BA7644000B6013 /* Convolutional.h */,
+				C58A677B29BA7650000B6013 /* Pooling.h */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		C58A677C29BA7655000B6013 /* Optimizer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Optimizer;
+			sourceTree = "<group>";
+		};
+		C58A677E29BA766C000B6013 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C58A678929BA844C000B6013 /* Random.h */,
+				C5E1CC0329BD4A6D0016ED73 /* MaxAverage.h */,
+				C5E1CC0429BD56750016ED73 /* Convolution.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C58A677F29BA7695000B6013 /* Activation */ = {
+			isa = PBXGroup;
+			children = (
+				C5E1CC0529BD5D450016ED73 /* Identity.h */,
+				C5E1CC0629BD5E100016ED73 /* ReLU.h */,
+				C5E1CC0729BD5E1F0016ED73 /* Sigmoid.h */,
+				C5E1CC0829BD5E2E0016ED73 /* Softmax.h */,
+				C5E1CC0929BD5E390016ED73 /* TanH.h */,
+			);
+			path = Activation;
+			sourceTree = "<group>";
+		};
+		C58A678029BA769E000B6013 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C58A676A29BA74EC000B6013 /* convolutional_neural_network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58A677229BA74EC000B6013 /* Build configuration list for PBXNativeTarget "convolutional_neural_network" */;
+			buildPhases = (
+				C58A676729BA74EC000B6013 /* Sources */,
+				C58A676829BA74EC000B6013 /* Frameworks */,
+				C58A676929BA74EC000B6013 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = convolutional_neural_network;
+			productName = convolutional_neural_network;
+			productReference = C58A676B29BA74EC000B6013 /* convolutional_neural_network */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C58A676329BA74EC000B6013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C58A676A29BA74EC000B6013 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = C58A676629BA74EC000B6013 /* Build configuration list for PBXProject "convolutional_neural_network" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C58A676229BA74EC000B6013;
+			productRefGroup = C58A676C29BA74EC000B6013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C58A676A29BA74EC000B6013 /* convolutional_neural_network */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C58A676729BA74EC000B6013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58A676F29BA74EC000B6013 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C58A677029BA74EC000B6013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C58A677129BA74EC000B6013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C58A677329BA74EC000B6013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /Users/amr/Documents/eigen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C58A677429BA74EC000B6013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /Users/amr/Documents/eigen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C58A676629BA74EC000B6013 /* Build configuration list for PBXProject "convolutional_neural_network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58A677029BA74EC000B6013 /* Debug */,
+				C58A677129BA74EC000B6013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58A677229BA74EC000B6013 /* Build configuration list for PBXNativeTarget "convolutional_neural_network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58A677329BA74EC000B6013 /* Debug */,
+				C58A677429BA74EC000B6013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C58A676329BA74EC000B6013 /* Project object */;
+}
